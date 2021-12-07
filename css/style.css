@@ -1,0 +1,258 @@
+@charset "UTF-8";
+body, p, h3 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+#daik {
+  position: fixed;
+  bottom: 10px;
+  right: 150px;
+  width: 20%;
+}
+#dai {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 4%;
+}
+body {
+  background-image: url(../images/bgg.png);
+  background-size: 30%;
+}
+.wrapper {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(24, 223, 24, 0.4);
+}
+/* ヘッダーエリア */
+.header {
+  width: 1020px;
+  margin: 10px auto;
+}
+.logo {
+  width: 300px;
+  margin-left: 360px;
+}
+/* 概要 */
+.overview {
+  width: 980px;
+  margin: 10px auto;
+  padding: 20px;
+  color: #da3e3e;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(24, 223, 24, 0.8);
+}
+.overview_a {
+  text-shadow: 2px 2px 3px #fff;
+}
+/* スタートボタン */
+.btn_s {
+  width: 200px;
+  margin: 0 auto;
+}
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #46a946;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 200%;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+/* セレクトエリア */
+.pointer {
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(24, 223, 24, 0.4);
+  color: #f08;
+  text-shadow: 2px 2px 3px #fff;
+}
+
+.select {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(24, 223, 24, 0.4);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+	width: 120px;
+	height: 76px;
+  margin: 10px 10px;
+	background: #FFF;
+	border-radius: 140px;
+	-moz-border-radius: 140px;
+	-webkit-border-radius: 140px;
+  padding: 84px 40px 40px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	box-shadow: 0px 4px 0px rgba(000,000,000,0.3);
+	-moz-box-shadow: 0px 4px 0px rgba(000,000,000,0.3);
+	-webkit-box-shadow: 0px 4px 0px rgba(000,000,000,0.3);
+	transition: background-color 0.5s ease-in;
+	-webkit-transition: background-color 0.5s ease-in;
+  text-decoration: none;
+}
+.btn:hover {
+  box-shadow: none;
+  margin-top: 10px;
+  position: relative;
+  top: 3px;
+}
+
+#fe {
+  border: solid 1px #bf5e5c;
+  color: #bf5e5c;
+}
+#fe:hover {
+  background: #bf5e5c;
+  color: #fff;
+}
+
+#bi {
+  border: solid 1px #dae113;
+  color: #dae113;
+}
+
+#bi:hover {
+  background: #dae113;
+  color: #fff;
+}
+
+#ca {
+  border: solid 1px #373741;
+  color: #373741;
+}
+
+#ca:hover {
+  background: #373741;
+  color: #fff;
+}
+.eff {
+  width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(24, 223, 24, 0.4);
+  font-weight: bold;
+}
+.eff_f {
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+  color: #003;
+  background-color: rgba(191, 94, 92, 0.8);
+  border: solid 1px #fff;
+  border-radius: 7px;
+}
+.eff_b {
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+  color: #303;
+  background-color: rgba(218, 225, 19, 0.8);
+  border: solid 1px #fff;
+  border-radius: 7px;
+}
+.eff_c {
+  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+  background-color: rgba(55, 55, 65, 0.8);
+  border: solid 1px #fff;
+  color: #fff;
+  border-radius: 7px;
+}
+/* メイキング */
+.make {
+
+}
+.make_img {
+  width: 1000px;
+  margin: 0 auto;
+}
+.goes {
+  width: 200px;
+  margin: 0 auto;
+}
+.go {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #fb0;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 200%;
+}
+.go:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}/* 結果 */
+.result_img {
+  width: 400px;
+  margin: 0 auto;
+}
+.result {
+  width: 300px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 150%;
+  border: solid 2px #000;
+  text-align: center;
+  background-color: #cff;
+  color: #f90;
+  text-shadow: 3px 3px 3px #fd6;
+}
+.h3 {
+  color: #f08;
+  text-shadow: 2px 2px 3px #fff;
+  margin: 10px 0;
+}
+
+/* フッター */
+.top_s {
+  width: 300px;
+  margin: 10px auto;
+  }
+.top {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #f07;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 200%;
+}
+.top :active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
